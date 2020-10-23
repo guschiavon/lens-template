@@ -7,11 +7,12 @@ sass:
 
 uploads_dir: /assets/images
 
+# Enabled plugins. Uncomment them here and update the Gemfile, then run 'bundle install' on your terminal to enable them.
 plugins:
-  - jekyll-responsive-image
   - jekyll-feed
-  - jekyll-webp
   - jekyll-sitemap
+  # - jekyll-webp
+  # - jekyll-responsive-image
 
 # Plugin configurations
 webp:

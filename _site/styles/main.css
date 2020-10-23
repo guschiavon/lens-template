@@ -1,13 +1,3 @@
-body { color: #aaa; }
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-p, span, a, ul, ol, li, button, input, textarea, label { font-family: arial, sans-serif; font-size: 1rem; }
-
-a { text-decoration: none; display: inline-block; }
-
-h1, h2, h3, h4, h5, h6 { font-family: times new roman, sans-serif; }
-
-li { list-style-position: inside; }
+body{color:#aaa}*{box-sizing:border-box;margin:0;padding:0}p,span,a,ul,ol,li,button,input,textarea,label{font-family:arial,sans-serif;font-size:1rem}a{text-decoration:none;display:inline-block}h1,h2,h3,h4,h5,h6{font-family:times new roman,sans-serif}li{list-style-position:inside}
 
 /*# sourceMappingURL=main.css.map */
