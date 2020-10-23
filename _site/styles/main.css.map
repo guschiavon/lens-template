@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_resets.scss",
+		"_sass/_utility.scss",
+		"_sass/_universal.scss"
+	],
+	"sourcesContent": [
+		"// Main Stylesheet\n\n// Colors\n$primary-color: #aaa;\n$secondary-color: #000;\n$accent-color: #F10CBA;\n$shade-color: #f2f2f2;\n$complementary-color: 2f2f2f;\n\n// Fonts\n$body-font: arial, sans-serif;\n$heading-font: times new roman, sans-serif;\n$body-font-size: 1rem;\n\nbody {\n  color: $primary-color;\n}\n\n@import\n  \"_resets\",\n  \"_utility\",\n  \"_universal\";",
+		" * {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n }",
+		"\n",
+		"\np,\nspan,\na,\nul,\nol,\nli,\nbutton,\ninput,\ntextarea,\nlabel {\n  font-family: $body-font;\n  font-size: $body-font-size;\n}\n\na {\n  text-decoration: none;\n  display: inline-block;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: $heading-font;\n}\n\nli {\n  list-style-position: inside;\n}"
+	],
+	"names": [],
+	"mappings": "AAcA,AAAA,IAAI,CAAC,EACH,KAAK,EAZS,IAAI,GAanB;;AChBA,AAAA,CAAC,CAAC,EACA,UAAU,EAAE,UAAU,EACtB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACX;;AEHF,AAAA,CAAC,EACD,IAAI,EACJ,CAAC,EACD,EAAE,EACF,EAAE,EACF,EAAE,EACF,MAAM,EACN,KAAK,EACL,QAAQ,EACR,KAAK,CAAC,EACJ,WAAW,EHDD,KAAK,EAAE,UAAU,EGE3B,SAAS,EHAM,IAAI,GGCpB;;AAED,AAAA,CAAC,CAAC,EACA,eAAe,EAAE,IAAI,EACrB,OAAO,EAAE,YAAY,GACtB;;AAED,AAAA,EAAE,EACF,EAAE,EACF,EAAE,EACF,EAAE,EACF,EAAE,EACF,EAAE,CAAC,EACD,WAAW,EHfE,KAAK,CAAC,GAAG,CAAC,KAAK,EAAE,UAAU,GGgBzC;;AAED,AAAA,EAAE,CAAC,EACD,mBAAmB,EAAE,MAAM,GAC5B"
+}
