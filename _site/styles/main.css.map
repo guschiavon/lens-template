@@ -8,11 +8,11 @@
 		"_sass/_universal.scss"
 	],
 	"sourcesContent": [
-		"// Main Stylesheet\n\n// Colors\n$primary-color: #aaa;\n$secondary-color: #000;\n$accent-color: #F10CBA;\n$shade-color: #f2f2f2;\n$complementary-color: 2f2f2f;\n\n// Fonts\n$body-font: arial, sans-serif;\n$heading-font: times new roman, sans-serif;\n$body-font-size: 1rem;\n\nbody {\n  color: $primary-color;\n}\n\n@import\n  \"_resets\",\n  \"_utility\",\n  \"_universal\";",
+		"// Main Stylesheet\n\n// Colors\n$primary-color          : #aaa;\n$secondary-color        : #000;\n$accent-color           : #F10CBA;\n$shade-color            : #f2f2f2;\n$complementary-color    : 2f2f2f;\n\n// Fonts\n$body-font      : arial, sans-serif;\n$heading-font   : times new roman, sans-serif;\n$body-font-size : 1rem;\n\nbody {\n  color: $primary-color;\n}\n\n@import\n  \"_resets\",\n  \"_utility\",\n  \"_universal\";",
 		" * {\n   box-sizing: border-box;\n   margin: 0;\n   padding: 0;\n }",
 		"\n",
 		"\np,\nspan,\na,\nul,\nol,\nli,\nbutton,\ninput,\ntextarea,\nlabel {\n  font-family: $body-font;\n  font-size: $body-font-size;\n}\n\na {\n  text-decoration: none;\n  display: inline-block;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: $heading-font;\n}\n\nli {\n  list-style-position: inside;\n}"
 	],
 	"names": [],
-	"mappings": "AAcA,AAAA,IAAI,AAAC,CACH,KAAK,CAZS,IAAI,CAanB,AChBA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AEHF,AAAA,CAAC,CACD,IAAI,CACJ,CAAC,CACD,EAAE,CACF,EAAE,CACF,EAAE,CACF,MAAM,CACN,KAAK,CACL,QAAQ,CACR,KAAK,AAAC,CACJ,WAAW,CHDD,KAAK,CAAE,UAAU,CGE3B,SAAS,CHAM,IAAI,CGCpB,AAED,AAAA,CAAC,AAAC,CACA,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,YAAY,CACtB,AAED,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CHfE,KAAK,CAAC,GAAG,CAAC,KAAK,CAAE,UAAU,CGgBzC,AAED,AAAA,EAAE,AAAC,CACD,mBAAmB,CAAE,MAAM,CAC5B"
+	"mappings": "AAcA,AAAA,IAAI,AAAC,CACH,KAAK,CAZmB,IAAI,CAa7B,AChBA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACtB,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACX,AEHF,AAAA,CAAC,CACD,IAAI,CACJ,CAAC,CACD,EAAE,CACF,EAAE,CACF,EAAE,CACF,MAAM,CACN,KAAK,CACL,QAAQ,CACR,KAAK,AAAC,CACJ,WAAW,CHDK,KAAK,CAAE,UAAU,CGEjC,SAAS,CHAO,IAAI,CGCrB,AAED,AAAA,CAAC,AAAC,CACA,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,YAAY,CACtB,AAED,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CHfK,KAAK,CAAC,GAAG,CAAC,KAAK,CAAE,UAAU,CGgB5C,AAED,AAAA,EAAE,AAAC,CACD,mBAAmB,CAAE,MAAM,CAC5B"
 }
