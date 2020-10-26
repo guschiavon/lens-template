@@ -1,3 +1,39 @@
 ---
 layout: default
+title: Bruno Santos Fotografia
+header_image: assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg
 ---
+<header style="background-image: url({{page.header_image}});">
+  <div id="sticky-nav-bar" class="sticky-nav-bar grid-noGutter-spaceBetween">
+    <a href="/" class="col-2 flex-start">
+      <div class="nav-branding flex-center">
+        <img src="{{site.data.settings.branding.nav_logo_image}}" alt="{{site.data.settings.branding.site_title}}" class="nav-logo">
+        <span class="nav-title">
+          {{site.data.settings.branding.site_title}}
+        </span>
+      </div>
+    </a>
+    <div class="col-8 nav-container flex-end">
+      <nav class="nav-menu">
+        {% for menu in site.data.settings.navigation.menus %}
+        <a href="{{menu.url}}" class="nav-link">{{menu.name}}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>
+</header>
+<section id="about" class="about-section grid-noGutter-spaceAround">
+  <div class="col-6-middle section-content">
+    <p class="editable">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, natus quam velit vel ducimus non cum a blanditiis perferendis, voluptatum error, autem voluptates! Natus velit molestias voluptate tenetur nam! Commodi ipsam eos facilis mollitia illo vitae, voluptates amet ipsa neque ea, odit nobis animi, officiis voluptate omnis magni velit minus!
+    </p>
+  </div>
+  <div class="col-6-middle section-image">
+    <h2 class="editable">
+      About
+    </h2>
+  </div>
+</section>
+<!-- <section class="full-screen-image">
+  <img src="assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg" alt="">
+</section> -->

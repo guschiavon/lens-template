@@ -1,0 +1,25 @@
+.sticky-nav-bar {
+  position: sticky;
+  padding : 1rem 3rem;
+  .nav-branding {
+    .nav-logo {
+      width  : 50px;
+      height : auto;
+    }
+    .nav-title {
+      padding: 0 0.5rem;
+      text-transform: uppercase;
+      color: $primary-color;
+    }
+  }
+  .nav-link {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    color: $primary-color;
+    &:last-of-type {
+      padding-right: 0;
+    }
+  }
+}

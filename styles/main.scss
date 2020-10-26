@@ -2,6 +2,7 @@
 ---
 
 // Main Stylesheet
+@import "_font-face";
 
 // Colors
 $primary-color          : {{site.data.settings.theme_settings.primary_color}};
@@ -22,4 +23,6 @@ body {
 @import
   "_resets",
   "_utility",
-  "_universal";
+  "_universal",
+  "_nav",
+  "_header";
