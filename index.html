@@ -22,27 +22,17 @@ header_image: assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg
       <p class="editable mb-2">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, natus quam velit vel ducimus non cum a blanditiis perferendis, voluptatum error, autem voluptates! Natus velit molestias voluptate tenetur nam! Commodi ipsam eos facilis mollitia illo vitae, voluptates amet ipsa neque ea, odit nobis animi, officiis voluptate omnis magni velit minus!
       </p>
-      <a href="/about" class="btn-outline editable">Read more</a>
+      <a href="/about" class="btn-outline editable">About Bruno</a>
     </div>
   </div>
 </section>
 <section id="portfolios" class="portfolios padding-x-lg padding-y-sm">
-  <div class="row-container padding-x-lg flex-start" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0172.jpg);">
-    <a href="">
-      <h2 class="impact-heading">Portraits</h2>
+  {% for portfolio in site.portfolios %}
+  <div class="row-container padding-x-lg flex-{% cycle 'start', 'end'%}" style="background-image: url({{portfolio.feature_image}});">
+    <a href="{{portfolio.url}}">
+      <h2 class="impact-heading">{{portfolio.title}}</h2>
     </a>
   </div>
   <br>
-  <div class="row-container padding-x-lg flex-end" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0255.jpg);">
-    <a href="">
-      <h2 class="impact-heading">Humanitarian</h2>
-    </a>
-  </div>
-  <br>
-  <div class="row-container padding-x-lg flex-start" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0338.jpg);">
-    <a href="" class="">
-      <h2 class="impact-heading">Abstract</h2>
-    </a>
-  </div>
+  {% endfor %}  
 </section>
-{% include essentials/footer.html %}
