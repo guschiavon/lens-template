@@ -2,7 +2,9 @@
 ---
 
 // Main Stylesheet
-@import "_font-face";
+@import
+  "_font-face";
+
 
 // Colors
 $primary-color          : {{site.data.settings.theme_settings.primary_color}};
@@ -15,6 +17,7 @@ $complementary-color    : {{site.data.settings.theme_settings.complementary_colo
 $body-font      : {{ site.data.settings.theme_settings.body_font_family }};
 $heading-font   : {{ site.data.settings.theme_settings.heading_font_family }};
 $body-font-size : {{ site.data.settings.theme_settings.body_font_size_number }};
+$base-line-height: {{ site.data.settings.theme_settings.line_height_number }};
 
 body {
   color: $primary-color;
@@ -24,5 +27,12 @@ body {
   "_resets",
   "_utility",
   "_universal",
+  "_mixins",
+  "_buttons",
   "_nav",
-  "_header";
+  "_footer",
+  "_header",
+  "_about",
+  "_portfolios",
+  "_portfolio-showcase",
+  "_media-queries";

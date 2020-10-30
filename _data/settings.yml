@@ -19,16 +19,16 @@ branding:
   footer_logo_image:
   preview_image:
 theme_settings:
-  primary_color: "#aaa"
+  primary_color: "#F2F2F2"
   secondary_color: "#000"
-  accent_color: "#F10CBA"
-  shade_color: "#f2f2f2"
+  accent_color: "#132410"
+  shade_color: "#354232"
   complementary_color: "2f2f2f"
   font_family_embed_code_block:
-  body_font_family: "Arial, sans-serif"
+  body_font_family: "DINPro, sans-serif"
   heading_font_family: "DINPro, sans-serif"
-  body_font_size_number: 1rem
-  line_spacing_number:
+  body_font_size_number: 1.1rem
+  line_height_number: 1.8
 navigation:
   menus:
   - name: About
@@ -47,12 +47,6 @@ navigation:
         url: /humanitarian
       - name: Abstract
         url: /abstract
-  - name: Contact
-    url: /contact
-    is_dropdown: false
-    submenus:
-      - name:
-        url:
 seo:
   site_description_text:
   keywords:

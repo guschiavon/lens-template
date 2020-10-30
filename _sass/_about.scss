@@ -1,0 +1,17 @@
+.section-image {
+  position: relative;
+  .img-container {
+    filter: grayscale(1);
+    width: 50%;
+    margin-left: auto;
+  }
+}
+.section-heading {
+ margin-bottom: 2rem;
+}
+.contact-link {
+  width: 40px;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  line-height: unset;
+}

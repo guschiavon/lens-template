@@ -3,37 +3,46 @@ layout: default
 title: Bruno Santos Fotografia
 header_image: assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg
 ---
-<header style="background-image: url({{page.header_image}});">
-  <div id="sticky-nav-bar" class="sticky-nav-bar grid-noGutter-spaceBetween">
-    <a href="/" class="col-2 flex-start">
-      <div class="nav-branding flex-center">
-        <img src="{{site.data.settings.branding.nav_logo_image}}" alt="{{site.data.settings.branding.site_title}}" class="nav-logo">
-        <span class="nav-title">
-          {{site.data.settings.branding.site_title}}
-        </span>
+<header class="home-header" style="background-image: url({{page.header_image}});">
+  {% include essentials/nav-option-1.html %}
+</header>
+<section id="about" class="about-section bg-light grid-noGutter-spaceAround-reverse padding-x-lg padding-y-lg">
+  <div class="col-6_sm-12-middle section-image">
+    <div class="padding-y-md">
+      <div class="img-container">
+        {% responsive_image path: assets/images/bruno-santos-fotografo.jpg alt: "A description of the image" %}
       </div>
-    </a>
-    <div class="col-8 nav-container flex-end">
-      <nav class="nav-menu">
-        {% for menu in site.data.settings.navigation.menus %}
-        <a href="{{menu.url}}" class="nav-link">{{menu.name}}</a>
-        {% endfor %}
-      </nav>
     </div>
   </div>
-</header>
-<section id="about" class="about-section grid-noGutter-spaceAround">
-  <div class="col-6-middle section-content">
-    <p class="editable">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, natus quam velit vel ducimus non cum a blanditiis perferendis, voluptatum error, autem voluptates! Natus velit molestias voluptate tenetur nam! Commodi ipsam eos facilis mollitia illo vitae, voluptates amet ipsa neque ea, odit nobis animi, officiis voluptate omnis magni velit minus!
-    </p>
-  </div>
-  <div class="col-6-middle section-image">
-    <h2 class="editable">
-      About
-    </h2>
+  <div class="col-6_sm-12-middle section-content">
+    <div class="padding-y-md">
+      <h2 class="section-heading impact-heading editable">
+        About
+      </h2>
+      <p class="editable mb-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, natus quam velit vel ducimus non cum a blanditiis perferendis, voluptatum error, autem voluptates! Natus velit molestias voluptate tenetur nam! Commodi ipsam eos facilis mollitia illo vitae, voluptates amet ipsa neque ea, odit nobis animi, officiis voluptate omnis magni velit minus!
+      </p>
+      <a href="/about" class="btn-outline editable">Read more</a>
+    </div>
   </div>
 </section>
-<!-- <section class="full-screen-image">
-  <img src="assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg" alt="">
-</section> -->
+<section id="portfolios" class="portfolios padding-x-lg padding-y-sm">
+  <div class="row-container padding-x-lg flex-start" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0172.jpg);">
+    <a href="">
+      <h2 class="impact-heading">Portraits</h2>
+    </a>
+  </div>
+  <br>
+  <div class="row-container padding-x-lg flex-end" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0255.jpg);">
+    <a href="">
+      <h2 class="impact-heading">Humanitarian</h2>
+    </a>
+  </div>
+  <br>
+  <div class="row-container padding-x-lg flex-start" style="background-image: url(assets/images/bruno-santos-fotografo-humanitarian-IMG_0338.jpg);">
+    <a href="" class="">
+      <h2 class="impact-heading">Abstract</h2>
+    </a>
+  </div>
+</section>
+{% include essentials/footer.html %}
